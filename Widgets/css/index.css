@@ -1,8 +1,13 @@
 h1 {
+    display: flex;
+    align-items: center;
     font-family: Bungee Outline;
     color: lime;
 }
-
+h2{
+    font-family: Bungee Outline;
+    color: lime;
+}
 p{
    font-family: Bungee Outline;
    color: lime;
@@ -10,4 +15,21 @@ p{
 
 body {
     background-color: black;
+}
+
+div {
+    align-items: center; 
+}
+ul{
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center;  */
+    width: 500px;;
+}
+
+li{
+    display: flex;
+    align-items: baseline;
+    /* flex-direction: column; */
+    justify-content: space-between;
 }
